@@ -1,6 +1,6 @@
 # Semana OmniStack 10
 
-This Project is a tinder-like system for someone to find developers based on location and technologies mastered. It was developed during **Rocketseat's 10th OmniStack Week** using React Native and ReactJS with the guidance of [@diego3g](github.com/diego3g).
+This Project is a tinder-like system for someone to find developers based on location and technologies mastered. It was developed during **Rocketseat's 10th OmniStack Week** using React Native and ReactJS with the guidance of [@diego3g](https://github.com/diego3g).
 
 The project consists of three folders: **backend**, **web**, and **mobile**.
 
