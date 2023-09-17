@@ -1,4 +1,4 @@
-# Semana OmniStack 10
+# Dev Radar
 
 This Project is a tinder-like system for someone to find developers based on location and technologies mastered. It was developed during **Rocketseat's 10th OmniStack Week** using NodeJS, React Native and ReactJS with the guidance of [@diego3g](https://github.com/diego3g).
 
