@@ -22,6 +22,6 @@ This project consists of three folders: **backend**, **web**, and **mobile**.
 1. If you're using a local MongoDB instance without credentials, skip to step 3;
 2. If you're using a remote MongoDB instance or if you need to enter credentials, go to /backend/src/index.js, change the 'connectionString' constant to the credential provided by MongoDB.
 3. Go to /mobile/services/api.js and change the 'baseUrl' constant to the IP address of the machine running the backend service;
-4. Go to /backend and Run the server with the command `npm run dev`;
-5. Go to /web and run `npm start`;
-6. Go to /mobile and Run `npm i` to install the dependencies. Make sure you have an android device connected or an android emulator running,  run `npx expo start`, and then press 'a' to run it on the android device.
+4. Go to /backend, run `npm i` to install the dependencies and then run the server with the command `npm run dev`;
+5. Go to /web, run `npm i` to install the dependencies and then run `npm start`;
+6. Go to /mobile and run `npm i` to install the dependencies. Make sure you have an android device connected or an android emulator running,  run `npx expo start`, and then press 'a' to run it on the android device.
