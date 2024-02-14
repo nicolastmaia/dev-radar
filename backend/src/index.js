@@ -1,7 +1,7 @@
-const express = require("express");
-const mongoose = require("mongoose");
-const cors = require("cors");
-const routes = require("./routes");
+const express = require('express');
+const mongoose = require('mongoose');
+const cors = require('cors');
+const routes = require('./routes');
 
 const app = express();
 
@@ -10,10 +10,17 @@ ou
 const app = express().use(express.json());
 */
 
-mongoose.connect(
-  "mongodb+srv://username:password@cluster0-jtpxd.mongodb.net/admin?retryWrites=true&w=majority", //substitute this url for your mongoDB connection string
-  { useNewUrlParser: true, useUnifiedTopology: true }
-);
+// use the following line if your mongoDB instance asks for username and password
+// mongoose.connect(
+//   'mongodb+srv://username:password@cluster0-jtpxd.mongodb.net/admin?retryWrites=true&w=majority', //substitute this url for your mongoDB connection string
+//   { useNewUrlParser: true, useUnifiedTopology: true }
+// );
+
+// use the following line if your mongoDB instance is local and doesn't need a username and password
+mongoose.connect('mongodb://localhost:27017', {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 
 app.use(cors());
 app.use(express.json());
