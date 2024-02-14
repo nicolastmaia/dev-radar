@@ -10,14 +10,14 @@ ou
 const app = express().use(express.json());
 */
 
-// use the following line if your mongoDB instance asks for username and password
-// mongoose.connect(
-//   'mongodb+srv://username:password@cluster0-jtpxd.mongodb.net/admin?retryWrites=true&w=majority', //substitute this url for your mongoDB connection string
-//   { useNewUrlParser: true, useUnifiedTopology: true }
-// );
+// Use the following line if your mongoDB instance uses credentials.
+// Substitute the part after the '@' with the instance's address.
+// const connectionString =  'mongodb+srv://username:password@cluster0-jtpxd.mongodb.net/admin?retryWrites=true&w=majority';
 
-// use the following line if your mongoDB instance is local and doesn't need a username and password
-mongoose.connect('mongodb://localhost:27017', {
+// use this connection string if your mongoDB instance is running local and doesn't need credentials
+const connectionString = 'mongodb://localhost:27017';
+
+mongoose.connect(connectionString, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
