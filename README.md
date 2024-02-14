@@ -3,7 +3,7 @@
 This Project is meant to help people find developers based on location and technologies mastered. It was developed during **Rocketseat's 10th OmniStack Week** using NodeJS, React Native and ReactJS.
 
 <img src="https://github.com/nicolastmaia/dev-radar/assets/45211638/8406fcc7-fdc6-4864-af59-c14d135d6c0a" height="300"/>
-<img src="https://github.com/nicolastmaia/dev-radar/assets/45211638/5d3bd420-e1d2-4c97-bc25-e02bafc52b6b" height="300"/>  
+<img src="https://github.com/nicolastmaia/dev-radar/assets/45211638/362fae87-de01-40dc-a529-d5a656f71b9c" height="300"/>
 
 &nbsp;
 
