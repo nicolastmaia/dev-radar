@@ -1,6 +1,6 @@
-const axios = require("axios");
-const Dev = require("../models/Dev");
-const parseStringAsArray = require("../utils/parseStringAsArray");
+const axios = require('axios');
+const Dev = require('../models/Dev');
+const parseStringAsArray = require('../utils/parseStringAsArray');
 
 //index, show, store, update, destroy
 
@@ -27,8 +27,8 @@ module.exports = {
       const techsArray = parseStringAsArray(techs);
 
       const location = {
-        type: "Point",
-        coordinates: [longitude, latitude]
+        type: 'Point',
+        coordinates: [longitude, latitude],
       };
 
       dev = await Dev.create({
@@ -37,7 +37,7 @@ module.exports = {
         avatar_url,
         bio,
         techs: techsArray,
-        location
+        location,
       });
     }
 
@@ -46,5 +46,5 @@ module.exports = {
 
   async update(request, response) {}, // DESAFIO!!
 
-  async destroy(request, response) {} // DESAFIO!!
+  async destroy(request, response) {}, // DESAFIO!!
 };
